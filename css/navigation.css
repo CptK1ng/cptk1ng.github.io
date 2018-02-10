@@ -1,0 +1,43 @@
+.navbar{
+	
+	border: 0px; 
+	background-color: #000;
+	/*min-height: 80px;*/
+	
+}
+
+.navbar-default .navbar-nav > li > a{
+	
+	color: #fff;
+	font-family: Raleway;
+	font-weight: 300;
+	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+	
+	color: #EF5350;
+	background: 0;
+	font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Supercell-Magic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Supercell-magic-webfont.ttf');
+}
+
+.navbar-brand p{
+	
+	font-family: 'Supercell-Magic';
+	color: #fff;
+	float: right;
+}
+.navbar-brand img{
+	
+	margin-top: -7px;
+	width: 30px;
+	float:left;
+}
+
+
